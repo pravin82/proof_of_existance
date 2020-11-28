@@ -21,7 +21,6 @@ contract ProofOfExistence2 {
     bytes32 proof = proofFor(document);
     storeProof(proof);
   }
-
   // helper function to get a document's sha256
   // *read-only function*
   function proofFor(string memory document) 
