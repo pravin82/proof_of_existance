@@ -30,7 +30,6 @@ contract ProofOfExistence2 {
   {
     return sha256(abi.encodePacked(document));
   }
-
   // check if a document has been notarized
   // *read-only function*
   function checkDocument(string memory document) 
